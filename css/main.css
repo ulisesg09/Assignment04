@@ -116,7 +116,7 @@ span.logo {
     float: left;
     background-color: cornflowerblue;
     width: 25%;
-    height: 500px;
+    height: 774px;
     margin bottom: 10px;
 }
 
@@ -124,12 +124,13 @@ span.logo {
     float: right;
     background-color: darkmagenta;
     width: 71%;
-    height: 500px;
+    height: 774px;
     padding: 0 2% 0 2%;
 }
 
 .sidebar-links {
-    background-color: cornflowerblue;
+    background-color: transparent;
+    max-width: 165px;
 }
 .sidebar-links li {
     width: 100%;
