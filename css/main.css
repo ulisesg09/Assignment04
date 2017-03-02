@@ -214,11 +214,6 @@ span.logo {
   width: 130px;
   height: 100px;
 }
-    .footer {
-        background-color: blue;
-        width:100%;
-        padding: 10px;
-    }
     .gallery-header {
         width:100%;
         padding:10px;
@@ -262,3 +257,39 @@ span.logo {
         background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 13%, rgba(219,219,219,1) 14%, rgba(209,209,209,1) 45%, rgba(254,254,254,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
     }
+input.submit-button {
+    padding:5px 15px;
+    width:100%;
+    border-radius:7px;
+    background-color:blueviolet;
+    color:#FFF;
+}
+.main-content-submit {
+    float: right;
+    background-color: darkmagenta;
+    width: 71%;
+    height: 430px;
+    padding: 0 2% 0 2%;
+}
+div.submit-form {
+    padding:20px;
+    width:300px;
+    height:250px;
+    background-color:#CCC;
+    margin:90px auto 0;
+    border-radius:7px;
+}
+h1.submit-h2 {
+    margin-bottom:20px;
+}
+.logo-contact img {
+    height: 100px;
+    padding: 5px 15%;
+}
+.contact-header {
+    background-color: lime;
+    height: 123px;
+    width: 70%;
+    padding: 5px 15%;
+}
+
