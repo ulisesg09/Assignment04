@@ -104,9 +104,8 @@ body {
 }
 .main-header {
     background-color: lime;
-    height: 123px;
-    width: 70%;
-    padding: 5px 15%;
+    height: 100px;
+    padding: 10px 10px;
 }
 .main-header h1 {
     line-height: 50px;
@@ -114,6 +113,8 @@ body {
 .footer {
     height: 50px;
     background-color: lime;
+    width: 80%;
+    margin:0 auto;
 }
 span.logo {
     color: blue;
@@ -214,38 +215,74 @@ span.logo {
   width: 130px;
   height: 100px;
 }
-    .gallery-header {
-        width:100%;
-        padding:10px;
-        background-color:#CCC;
-    }
-    .main-page {
-        height:500px;
-        width:100%;
-        background-color:blueviolet;
+        .main-gallery-area h1 {
+            text-align: center;
+            font-size: 35pt;
+            color:white;
+        }
+        .content-gallery{
+            width:100%;
+        }
+        .content-gallery tr {
+            padding:3px 5px;
+            background-color:lime;
+            border:1px solid #CCC;
+        }
+        .content-gallery tr:nth-child(even) {
+            background-color: whitesmoke;
+        }
+        .content-gallery th{
+            padding:10px 10px;
+        }
+        .content-gallery img {
+            height:150px;
+            width:150px;
+        }
+        .content-gallery th h1 {
+            font-size: 30pt;
+            color: dimgray;
+            text-decoration: underline;
+        }
 
+        .main-gallery-area {
+            width: 82%;
+            float: right;
+            padding-bottom: 50px;
+        }
+        .body, html {
+            background-image: url('../images/gallery-images/background1.png')
+        }
+        
+    .main-page {
+        position:relative;
+        width:80%;
+        flex:1;
+        margin:0 auto;
+    }
+    .logo1{
+        width:100px;
+        height:100px;
     }
     aside.content-sidebar {
-        background-color: darkslategray;
         float:left;
-        width:20%;
-        height:100%;
+        width:15%;
+        flex:1;
+        height:88%;
     }
     aside.content-sidebar ul {
         list-style-type: none;
-        height: 100%;
     }
     aside.content-sidebar li {
         display:block;
         width:100%;
-        height:90px;
+        height:40px;
     }
     aside.content-sidebar a {
         text-decoration:none;
-        padding:10px 15px;
+        padding:5px 5px;
         display:block;
-        border: 1px solid #CCC;
         margin:10px 0 0 0;
+        text-align: center;
     }
     .button-gradient {
         background: rgba(226,226,226,1);
@@ -257,6 +294,9 @@ span.logo {
         background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 13%, rgba(219,219,219,1) 14%, rgba(209,209,209,1) 45%, rgba(254,254,254,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
     }
+    .description {
+        text-decoration: underline;
+    }
 input.submit-button {
     padding:5px 15px;
     width:100%;
@@ -265,31 +305,38 @@ input.submit-button {
     color:#FFF;
 }
 .main-content-submit {
-    float: right;
-    background-color: darkmagenta;
-    width: 71%;
-    height: 430px;
-    padding: 0 2% 0 2%;
+    background-image: url('../images/gallery-images/background1.png');
+    flex: 1;
+    height: 82%;
+    padding-top: 100px;
+    background-position-x: right;
+    background-position-y: center;
 }
 div.submit-form {
-    padding:20px;
-    width:300px;
-    height:250px;
-    background-color:#CCC;
-    margin:90px auto 0;
-    border-radius:7px;
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    background-color: #CCC;
+    border-radius: 7px;
+    margin: 0 auto;
 }
 h1.submit-h2 {
     margin-bottom:20px;
 }
-.logo-contact img {
-    height: 100px;
-    padding: 5px 15%;
+.contact-header img {
+    height: 125px;
+    width: 125px;
+    padding: 10px 10px;
 }
 .contact-header {
     background-color: lime;
-    height: 123px;
-    width: 70%;
-    padding: 5px 15%;
+    height: 150px;
+    position:relative;
 }
-
+.content-bottom-contact {
+    overflow: auto;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    flex:1;
+}
